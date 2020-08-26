@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+.todo-form {
+    margin-top: 60px;
+}
+
+.todo-form {
+    .todo-form__wrap {
+        display: flex;
+        margin-left: 28px;
+    }
+}
+
+.todo-form {
+    .todo-form__label-wrap {
+        padding-top: 12px;
+    }
+}
+
+.todo {
+    font-size: 18px;
+}
+
+.todo-form {
+    .todo-form_label_space {
+        @extend .todo;
+    }
+}
+
+.families {
+    font-family: 'Raleway', sans-serif;
+}
+
+.todo-form {
+    .todo-form__label-text {
+        @extend .todo;
+        @extend .families;
+    }
+}
+
+.todo-form {
+    .todo-form_label_space {
+        margin-right: 35px;
+    }
+}
+
+.todo-form {
+    .todo-form__in-wrap {
+        width: 100%;
+    }
+}
+
+.todo-form__in-wrap {
+    .todo-form__input-text {
+        @extend .todo;
+        @extend .families;
+    }
+}
+
+.todo-form__in-wrap {
+    .todo-form__input-up {
+        height: 50px;
+    }
+}
+
+.todo-form__btn-submit {
+    float: right;
+    margin-top: 10px;
+    @extend .families;
+}
+
+.todo-form_btn-sizes {
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+
+#todo {
+    padding-top: 20px;
+}
+
+@media screen and (max-width: 720px) {
+    .todo-form {
+        .todo-form__wrap {
+            display: block;
+            margin-left: 5px;
+        }
+    }
+
+    .todo-form_btn-sizes {
+        width: 100%;
+    }
+
+    .todo-form__btn-submit {
+        float: none;
+        margin-left: 5px;
+    }
+}
